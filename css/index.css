@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+body{
+    margin: 0 auto;
+    background-image: url("../images/bodybg.jpg");
+    background-repeat: repeat;
+    background-color: #cccccc;
+}
+.wrapper{
+    margin: 0 auto;
+    width:100%;
+}
+.firstcontainer{
+  background-image: url('../images/landingbg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.firstcontainer ul{
+    list-style: none;
+    margin: 0;
+    color: #ffffff;
+    display: flex;
+}
+.clscenter > p {
+    color:#ffffff;
+    text-align: center;
+    font-size: 4vw;
+}
+.clscenter .martop{
+    margin-top: 160px;
+}
+.clsright{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.firstcontainer ul li{
+    padding: 10px;
+}
+p{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 16px;
+}
+p > b{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 24px;
+}
+span{
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
+.secondcontainer,.thirdcontainer,.fuourthcontainer,.fivthcontainer{
+   margin: 0 50px;
+   padding-top: 100px;
+}
+.secondcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+.secondcontainer > div.clsleft > p{
+ text-align: justify;
+}
+.secondcontainer > div{
+    flex: 1;
+    justify-content: space-around;
+}
+.secondcontainer .clsrightimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgarrange,.cardarrange{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.imgarrange > div > img{
+    width: 270px;
+    height: 270px;
+}
+.fuourthcontainer .imgarrange > div > img{
+    width: 370px;
+    height: 300px;
+}
+.cardarrange > div{
+    background-color: goldenrod;
+    padding: 20px;
+    border-radius: 10px;
+    width: 370px;
+    text-align: center;
+    color: #ffffff;
+}
+.clsfooter{
+    margin-top: 20px;
+    padding: 0 20px;
+    background-color: black;
+    color: #ffffff;
+    font-weight: 700;
+    display: flex;
+}
+.clsfooter div{
+flex:1;
+}
+.clsfooter .clsleft{
+    display: flex;
+    align-items: center;
+}
+.clsfooter .clsright{
+    text-align: right;
+}
+
+/*Media Queries*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .cardarrange > div {margin-top: 20px;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .cardarrange > div {margin-top: 20px;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .cardarrange > div {margin-top: 20px;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .cardarrange > div {margin-top: 20px;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .cardarrange > div {margin-top: 20px;}
+  }
